@@ -1,0 +1,38 @@
+name: Build & Deploy Quartz Site
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Nightly at 03:00 UTC
+  workflow_dispatch:
+  push:
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Quartz repo
+        uses: actions/checkout@v3
+
+      - name: Clone vault repo
+        run: |
+          git clone https://github.com/ville-solja/Obsidian-BJJ.git temp-vault
+          rm -rf content/*
+          cp -r temp-vault/* content/
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Quartz site
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.VAULT_TOKEN}}
+          publish_dir: ./public
