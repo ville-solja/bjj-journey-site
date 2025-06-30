@@ -16,9 +16,9 @@ jobs:
 
       - name: Clone vault repo
         run: |
-          rm -rf content
-          git clone https://x-access-token:${{ secrets.VAULT_TOKEN }}@github.com/ville-solja/Obsidian-BJJ.git temp-vault
-          mv temp-vault content
+          git clone https://$GITHUB_ACTOR:${{ secrets.VAULT_TOKEN }}@github.com/ville-solja/Obsidian-BJJ.git temp-vault
+          rm -rf content/*
+          cp -r temp-vault/* content/
           
       - name: Setup Node
         uses: actions/setup-node@v3
