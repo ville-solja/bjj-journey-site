@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout Quartz repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Clone vault repo
         run: |
@@ -21,7 +21,7 @@ jobs:
           cp -r temp-vault/* content/
           
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
 
@@ -32,7 +32,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.VAULT_TOKEN}}
           publish_dir: ./public
