@@ -49,6 +49,15 @@ jobs:
       - name: Debug – List available scripts
         run: npm run || echo "❌ Failed to list npm scripts"
 
+      - name: 🔍 Confirm package.json and build script
+        run: |
+          echo "Working directory: $(pwd)"
+          echo "package.json contents:"
+          cat package.json
+          echo "Available npm scripts:"
+          npm run
+
+
       - name: Build Quartz site
         run: npm run build
 
