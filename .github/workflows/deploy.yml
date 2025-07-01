@@ -41,6 +41,12 @@ jobs:
         working-directory: .
         run: npm run
 
+      - name: Debug – Show current working directory and files
+        run: |
+          echo "PWD: $(pwd)"
+          ls -la
+          cat package.json || echo "package.json not found"
+
       - name: Install dependencies
         working-directory: .
         run: npm install
