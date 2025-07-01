@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Upgrade npm to >=10.9.2
+        run: npm install -g npm@latest
+
       - name: Install dependencies
         run: npm install
 
