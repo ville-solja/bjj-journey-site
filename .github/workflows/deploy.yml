@@ -27,24 +27,27 @@ jobs:
           check-latest: true
           cache: 'npm'
 
-      - name: Manually enforce Node 22 path and check versions
+      - name: Clean npm cache
+        run: npm cache clean --force
+
+      - name: Verify Node and npm versions
         run: |
-          export PATH="/opt/hostedtoolcache/node/22*/x64/bin:$PATH"
-          hash -r
-          echo "Using Node from: $(which node)"
-          node -v
-          echo "Using npm from: $(which npm)"
-          npm -v
+          echo "Node: $(node -v)"
+          echo "npm: $(npm -v)"
+          echo "Which Node: $(which node)"
+          echo "Which npm: $(which npm)"
+
+      - name: List available npm scripts
+        working-directory: .
+        run: npm run
 
       - name: Install dependencies
-        run: |
-          export PATH="/opt/hostedtoolcache/node/22*/x64/bin:$PATH"
-          npm install
+        working-directory: .
+        run: npm install
 
       - name: Build Quartz site
-        run: |
-          export PATH="/opt/hostedtoolcache/node/22*/x64/bin:$PATH"
-          npm run build
+        working-directory: .
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
