@@ -14,19 +14,11 @@ jobs:
       - name: Checkout Quartz repo
         uses: actions/checkout@v4
 
-      - name: Clone vault repo
+      - name: Clone vault repo and sync to content/
         run: |
           git clone https://$GITHUB_ACTOR:${{ secrets.VAULT_TOKEN }}@github.com/ville-solja/Obsidian-BJJ.git temp-vault
           rm -rf content/*
-          cp -r temp-vault/* content/
-
-      - name: Debug – Confirm package.json after vault copy
-        run: |
-          echo "Current directory: $(pwd)"
-          echo "Contents:"
-          ls -la
-          echo "package.json contents:"
-          cat package.json
+          rsync -av --exclude=package.json --exclude=package-lock.json temp-vault/ content/
 
       - name: Set up Node.js 22
         uses: actions/setup-node@v4
@@ -35,32 +27,29 @@ jobs:
           check-latest: true
           cache: 'npm'
 
-      - name: Clean npm cache
+      - name: Clean npm cache (optional but safe)
         run: npm cache clean --force
+
+      - name: Debug – Check presence of package.json
+        run: |
+          echo "Working directory: $(pwd)"
+          ls -la
+          cat package.json || echo "❌ package.json not found!"
 
       - name: Verify Node and npm versions
         run: |
-          echo "Node: $(node -v)"
-          echo "npm: $(npm -v)"
-          echo "Which Node: $(which node)"
-          echo "Which npm: $(which npm)"
-
-      - name: List available npm scripts
-        working-directory: .
-        run: npm run
-
-      - name: Debug – Show current working directory and files
-        run: |
-          echo "PWD: $(pwd)"
-          ls -la
-          cat package.json || echo "package.json not found"
+          node -v
+          npm -v
+          which node
+          which npm
 
       - name: Install dependencies
-        working-directory: .
         run: npm install
 
+      - name: Debug – List available scripts
+        run: npm run || echo "❌ Failed to list npm scripts"
+
       - name: Build Quartz site
-        working-directory: .
         run: npm run build
 
       - name: Deploy to GitHub Pages
