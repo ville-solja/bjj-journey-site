@@ -6,6 +6,11 @@ on:
   workflow_dispatch:
   push:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   sync-and-deploy:
     runs-on: ubuntu-latest
