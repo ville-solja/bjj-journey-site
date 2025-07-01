@@ -24,9 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-
-      - name: Upgrade npm to >=10.9.2
-        run: npm install -g npm@latest
+          check-latest: true
 
       - name: Verify Node and npm versions
         run: |
