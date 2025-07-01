@@ -25,14 +25,21 @@ jobs:
         with:
           node-version: 22
           check-latest: true
+          cache: 'npm'
 
       - name: Verify Node and npm versions
         run: |
+          which node
           node -v
+          which npm
           npm -v
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies using correct Node
+        run: |
+          export PATH="$(npm bin -g):$PATH"
+          node -v
+          npm -v
+          npm install
 
       - name: Build Quartz site
         run: npm run build
