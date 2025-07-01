@@ -20,6 +20,14 @@ jobs:
           rm -rf content/*
           cp -r temp-vault/* content/
 
+      - name: Debug – Confirm package.json after vault copy
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Contents:"
+          ls -la
+          echo "package.json contents:"
+          cat package.json
+
       - name: Set up Node.js 22
         uses: actions/setup-node@v4
         with:
