@@ -19,33 +19,35 @@ jobs:
           git clone https://$GITHUB_ACTOR:${{ secrets.VAULT_TOKEN }}@github.com/ville-solja/Obsidian-BJJ.git temp-vault
           rm -rf content/*
           cp -r temp-vault/* content/
-          
-      - name: Setup Node
+
+      - name: Set up Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: '22'
           check-latest: true
           cache: 'npm'
 
-      - name: Verify Node and npm versions
+      - name: Manually enforce Node 22 path and check versions
         run: |
-          which node
+          export PATH="/opt/hostedtoolcache/node/22*/x64/bin:$PATH"
+          hash -r
+          echo "Using Node from: $(which node)"
           node -v
-          which npm
+          echo "Using npm from: $(which npm)"
           npm -v
 
-      - name: Install dependencies using correct Node
+      - name: Install dependencies
         run: |
-          export PATH="$(npm bin -g):$PATH"
-          node -v
-          npm -v
+          export PATH="/opt/hostedtoolcache/node/22*/x64/bin:$PATH"
           npm install
 
       - name: Build Quartz site
-        run: npm run build
+        run: |
+          export PATH="/opt/hostedtoolcache/node/22*/x64/bin:$PATH"
+          npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.VAULT_TOKEN}}
+          github_token: ${{ secrets.VAULT_TOKEN }}
           publish_dir: ./public
