@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Windshield wiper choke</title>
-    <link>https://quartz.jzhao.xyz/Submissions/Windshield-wiper-choke</link>
-    <guid>https://quartz.jzhao.xyz/Submissions/Windshield-wiper-choke</guid>
-    <description> Naming Windshield wiper is the leg movement to change position, and not the choke.</description>
-    <pubDate>Tue, 01 Jul 2025 20:28:50 GMT</pubDate>
+    <title>Guard retention drills</title>
+    <link>https://quartz.jzhao.xyz/Drills--and--Practises/Guard-retention-drills</link>
+    <guid>https://quartz.jzhao.xyz/Drills--and--Practises/Guard-retention-drills</guid>
+    <description>Rotating with opponent On back with legs on defensive posture. Rotate with elbows. This is particularly easy to practice at home as well.</description>
+    <pubDate>Wed, 02 Jul 2025 15:45:49 GMT</pubDate>
   </item><item>
-    <title>Single leg</title>
-    <link>https://quartz.jzhao.xyz/Takedowns/Single-leg</link>
-    <guid>https://quartz.jzhao.xyz/Takedowns/Single-leg</guid>
-    <description> Lower posture Both hands on opponents forward leg Shoulder on opponents waist Push forward to force opponent to fall backwards Head inside Pulling method Pushing forward Head outside.</description>
-    <pubDate>Tue, 01 Jul 2025 20:28:50 GMT</pubDate>
+    <title>Close guard overhook stiff</title>
+    <link>https://quartz.jzhao.xyz/Submissions/Close-guard-overhook-stiff</link>
+    <guid>https://quartz.jzhao.xyz/Submissions/Close-guard-overhook-stiff</guid>
+    <description>Description The goal is to assume further control from Closed guard by obtaining a Overhook on opponents arm and straightening it.</description>
+    <pubDate>Wed, 02 Jul 2025 15:45:49 GMT</pubDate>
+  </item><item>
+    <title>Two grip choke on turtle</title>
+    <link>https://quartz.jzhao.xyz/Submissions/Two-grip-choke-on-turtle</link>
+    <guid>https://quartz.jzhao.xyz/Submissions/Two-grip-choke-on-turtle</guid>
+    <description>Description Basically you can feed the Lapel in a tricky way to force choke.</description>
+    <pubDate>Wed, 02 Jul 2025 15:45:49 GMT</pubDate>
+  </item><item>
+    <title>Unfamiliar techniques</title>
+    <link>https://quartz.jzhao.xyz/Unfamiliar-techniques</link>
+    <guid>https://quartz.jzhao.xyz/Unfamiliar-techniques</guid>
+    <description>const pages = dv.current().file.inlinks; if (pages.length === 0) { dv.paragraph(&quot;No backlinks.&quot;); } else { dv.list(pages.map(p =&gt; p.path)); } const unresolved = new Set(); for (let page of dv.pages()) { const links = page.file.outlinks; for (let link of links) { if (!dv.page(link.path))...</description>
+    <pubDate>Wed, 02 Jul 2025 15:45:49 GMT</pubDate>
   </item><item>
     <title>BJJ journey</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description>Process Focus 100% on the training sessions. Do not plan for what to take notes of After the training put key ideas and concepts on post-it notes.</description>
-    <pubDate>Tue, 01 Jul 2025 20:28:50 GMT</pubDate>
+    <description>Process Overall process is loosely based on Zettelkasten methodology, which has been changed to suit my tracking of BJJ journey.</description>
+    <pubDate>Wed, 02 Jul 2025 15:45:49 GMT</pubDate>
   </item><item>
-    <title>Empty pages</title>
-    <link>https://quartz.jzhao.xyz/Empty-pages</link>
-    <guid>https://quartz.jzhao.xyz/Empty-pages</guid>
-    <description>Page for notes that have little to no content and need to be filled. Use backlink to identify pages and fill them out if possible.</description>
-    <pubDate>Tue, 01 Jul 2025 20:24:04 GMT</pubDate>
+    <title>Thumb and cuff grip</title>
+    <link>https://quartz.jzhao.xyz/Grips/Thumb-and-cuff-grip</link>
+    <guid>https://quartz.jzhao.xyz/Grips/Thumb-and-cuff-grip</guid>
+    <description>Description Grip where you have only the thumb inside the lapel or similar clothing.</description>
+    <pubDate>Wed, 02 Jul 2025 15:33:46 GMT</pubDate>
   </item><item>
-    <title>Figure-four grip</title>
-    <link>https://quartz.jzhao.xyz/Grips/Figure-four-grip</link>
-    <guid>https://quartz.jzhao.xyz/Grips/Figure-four-grip</guid>
-    <description>4 Empty pages.</description>
-    <pubDate>Tue, 01 Jul 2025 20:24:04 GMT</pubDate>
+    <title>Turtle to Papercutter</title>
+    <link>https://quartz.jzhao.xyz/Positions/Turtle/Turtle-to-Papercutter</link>
+    <guid>https://quartz.jzhao.xyz/Positions/Turtle/Turtle-to-Papercutter</guid>
+    <description>Position at 2 o’clock and underhook on the same side to grab lapel. Other hand Thumb and cuff grips the neck. Jump to feet and raise opponent.</description>
+    <pubDate>Wed, 02 Jul 2025 15:33:46 GMT</pubDate>
   </item><item>
-    <title>Rubber guard</title>
-    <link>https://quartz.jzhao.xyz/Guards/Rubber-guard</link>
-    <guid>https://quartz.jzhao.xyz/Guards/Rubber-guard</guid>
-    <description>Empty pages.</description>
-    <pubDate>Tue, 01 Jul 2025 20:24:04 GMT</pubDate>
+    <title>Side shimmy practice</title>
+    <link>https://quartz.jzhao.xyz/Drills--and--Practises/Side-shimmy-practice</link>
+    <guid>https://quartz.jzhao.xyz/Drills--and--Practises/Side-shimmy-practice</guid>
+    <description>The usual sunday thing. Find a proper name and explanation for this.</description>
+    <pubDate>Wed, 02 Jul 2025 15:18:56 GMT</pubDate>
   </item><item>
-    <title>Spider guard</title>
-    <link>https://quartz.jzhao.xyz/Guards/Spider-guard</link>
-    <guid>https://quartz.jzhao.xyz/Guards/Spider-guard</guid>
-    <description>Empty pages.</description>
-    <pubDate>Tue, 01 Jul 2025 20:24:04 GMT</pubDate>
+    <title>Turtle to Crusifix</title>
+    <link>https://quartz.jzhao.xyz/Positions/Turtle/Turtle-to-Crusifix</link>
+    <guid>https://quartz.jzhao.xyz/Positions/Turtle/Turtle-to-Crusifix</guid>
+    <description>Force lower knee between knee shield. Reach over with lower arm and control far knee. Grab your closer knee and pull forward and isolate the arm.</description>
+    <pubDate>Wed, 02 Jul 2025 15:18:56 GMT</pubDate>
   </item><item>
-    <title>Collar</title>
-    <link>https://quartz.jzhao.xyz/Miscellaneous/GI/Collar</link>
-    <guid>https://quartz.jzhao.xyz/Miscellaneous/GI/Collar</guid>
-    <description>Empty pages.</description>
-    <pubDate>Tue, 01 Jul 2025 20:24:04 GMT</pubDate>
-  </item><item>
-    <title>Lapel</title>
-    <link>https://quartz.jzhao.xyz/Miscellaneous/GI/Lapel</link>
-    <guid>https://quartz.jzhao.xyz/Miscellaneous/GI/Lapel</guid>
-    <description>Empty pages.</description>
-    <pubDate>Tue, 01 Jul 2025 20:24:04 GMT</pubDate>
-  </item><item>
-    <title>Sleeve</title>
-    <link>https://quartz.jzhao.xyz/Miscellaneous/GI/Sleeve</link>
-    <guid>https://quartz.jzhao.xyz/Miscellaneous/GI/Sleeve</guid>
-    <description>Empty pages.</description>
-    <pubDate>Tue, 01 Jul 2025 20:24:04 GMT</pubDate>
+    <title>Baseball choke</title>
+    <link>https://quartz.jzhao.xyz/Submissions/Baseball-choke</link>
+    <guid>https://quartz.jzhao.xyz/Submissions/Baseball-choke</guid>
+    <description>Choke where you have a underhook on possibly turtling opponent and you decide to feed your shirt to your underhook.</description>
+    <pubDate>Wed, 02 Jul 2025 15:18:56 GMT</pubDate>
   </item>
     </channel>
   </rss>
