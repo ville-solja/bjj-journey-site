@@ -68,7 +68,7 @@ jobs:
           python-version: '3.x'
 
       - name: Generate Recently Updated Notes
-        run: python3 generate_recently_updated.py
+        run: python3 generate_pages.py
 
 
       - name: Build Quartz site
