@@ -43,7 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.RecentNotes({ limit: 5 }),
+    Component.RecentNotes({ limit: 10 }),
   ],
 }
 
