@@ -62,6 +62,14 @@ jobs:
           echo "Available npm scripts:"
           npm run
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate Recently Updated Notes
+        run: python3 generate_recently_updated.py
+
 
       - name: Build Quartz site
         run: npm run build
