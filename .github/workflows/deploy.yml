@@ -39,7 +39,7 @@ jobs:
         run: |
           echo "Working directory: $(pwd)"
           ls -la
-          cat package.json || echo "❌ package.json not found!"
+          cat package.json || echo "package.json not found!"
 
       - name: Verify Node and npm versions
         run: |
@@ -52,9 +52,9 @@ jobs:
         run: npm install
 
       - name: Debug – List available scripts
-        run: npm run || echo "❌ Failed to list npm scripts"
+        run: npm run || echo "Failed to list npm scripts"
 
-      - name: 🔍 Confirm package.json and build script
+      - name: Confirm package.json and build script
         run: |
           echo "Working directory: $(pwd)"
           echo "package.json contents:"
