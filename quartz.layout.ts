@@ -41,12 +41,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
-    Component.CustomHTML({
+    Component.Raw({
       html: `
         <div style="padding-top: 1em; font-size: 0.9em;">
           <a href="/recently-updated" style="color: var(--accent); text-decoration: none;">
-            Recently Updated
+            📄 Recently Updated
           </a>
         </div>
       `,
