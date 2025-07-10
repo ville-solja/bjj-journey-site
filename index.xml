@@ -9,14 +9,44 @@
     <title>recently-updated</title>
     <link>https://quartz.jzhao.xyz/recently-updated</link>
     <guid>https://quartz.jzhao.xyz/recently-updated</guid>
-    <description>📄 Recently Updated Notes Windshield wiper index Unfamiliar techniques Lockdown Sweep Lasso sweep Lumberjack &amp; Waiter Omoplata Star sweep John Wayne sweep Collar &amp; Sleeve to takedown .</description>
-    <pubDate>Thu, 10 Jul 2025 17:48:47 GMT</pubDate>
+    <description>📄 Recently Updated Notes Windshield wiper Uncreated pages index Lockdown Sweep Lasso sweep Lumberjack &amp; Waiter Omoplata De La Riva sweep Star sweep John Wayne sweep .</description>
+    <pubDate>Thu, 10 Jul 2025 17:55:48 GMT</pubDate>
+  </item><item>
+    <title>Flashy Rolling Backtake</title>
+    <link>https://quartz.jzhao.xyz/Positions/Turtle/Flashy-Rolling-Backtake</link>
+    <guid>https://quartz.jzhao.xyz/Positions/Turtle/Flashy-Rolling-Backtake</guid>
+    <description>Prerequisite: Opponent is in turtle and position you are on the rear Grab Seatbelt grip Plant your forehead on either 11 or 1 o’clock.</description>
+    <pubDate>Thu, 10 Jul 2025 17:51:04 GMT</pubDate>
+  </item><item>
+    <title>Straight jacket from back</title>
+    <link>https://quartz.jzhao.xyz/Submissions/Straight-jacket-from-back</link>
+    <guid>https://quartz.jzhao.xyz/Submissions/Straight-jacket-from-back</guid>
+    <description>Straight jacket Grab wrists of opponent Fall on side Push their top leg on top of the other Grip the opposite arms (Pullable into a straight jacket) Push the upper arm towards opponents chest from the wrist Isolate the arm with your leg Grab lapel and choke Uncreated pages.</description>
+    <pubDate>Thu, 10 Jul 2025 17:51:04 GMT</pubDate>
+  </item><item>
+    <title>Windshield wiper choke</title>
+    <link>https://quartz.jzhao.xyz/Submissions/Windshield-wiper-choke</link>
+    <guid>https://quartz.jzhao.xyz/Submissions/Windshield-wiper-choke</guid>
+    <description> Naming Windshield wiper is the leg movement to change position, and not the choke.</description>
+    <pubDate>Thu, 10 Jul 2025 17:51:04 GMT</pubDate>
+  </item><item>
+    <title>Lockdown Sweep</title>
+    <link>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Lockdown-Sweep</link>
+    <guid>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Lockdown-Sweep</guid>
+    <description> Control opponents leg tightly Outer leg goes inward behind the opponents knee Inner leg locks the leg in place (Similar method as in Triangle) Inner legs Instep locks the opponents leg in a hook.</description>
+    <pubDate>Thu, 10 Jul 2025 17:51:04 GMT</pubDate>
+  </item><item>
+    <title>Uncreated pages</title>
+    <link>https://quartz.jzhao.xyz/Uncreated-pages</link>
+    <guid>https://quartz.jzhao.xyz/Uncreated-pages</guid>
+    <description>const unresolved = new Set(); for (let page of dv.pages()) { const links = page.file.outlinks; for (let link of links) { if (!dv.page(link.path)) { unresolved.add(link.path); } } } dv.table([&quot;Uncreated Pages&quot;], Array.from(unresolved).map(p =&gt; [dv.fileLink(p)]));.</description>
+    <pubDate>Thu, 10 Jul 2025 17:51:04 GMT</pubDate>
   </item><item>
     <title>BJJ journey</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description>Process Overall process is loosely based on Zettelkasten methodology, which has been changed to suit my tracking of BJJ journey.</description>
-    <pubDate>Thu, 10 Jul 2025 16:49:43 GMT</pubDate>
+    <pubDate>Thu, 10 Jul 2025 17:51:04 GMT</pubDate>
   </item><item>
     <title>Side control</title>
     <link>https://quartz.jzhao.xyz/Positions/Side-control</link>
@@ -34,36 +64,6 @@
     <link>https://quartz.jzhao.xyz/Defence/Granby-roll</link>
     <guid>https://quartz.jzhao.xyz/Defence/Granby-roll</guid>
     <description>When in Turtle and opponent is on side and not applying constant pressure you can roll over shoulder that is on the opponents side and regain Open guard.</description>
-    <pubDate>Thu, 10 Jul 2025 11:03:19 GMT</pubDate>
-  </item><item>
-    <title>Knee on belly defence</title>
-    <link>https://quartz.jzhao.xyz/Defence/Knee-on-belly-defence</link>
-    <guid>https://quartz.jzhao.xyz/Defence/Knee-on-belly-defence</guid>
-    <description>Try Always start with side -idea to see if the knee can be loosened.</description>
-    <pubDate>Thu, 10 Jul 2025 11:03:19 GMT</pubDate>
-  </item><item>
-    <title>Lapel choke defence</title>
-    <link>https://quartz.jzhao.xyz/Defence/Lapel-choke-defence</link>
-    <guid>https://quartz.jzhao.xyz/Defence/Lapel-choke-defence</guid>
-    <description>When opponent has from behind your lapel gripped they are always trying to move their elbow behind your back and you should aim to eliminate that movement, either by handfighting or going to a side.</description>
-    <pubDate>Thu, 10 Jul 2025 11:03:19 GMT</pubDate>
-  </item><item>
-    <title>Mount Defence</title>
-    <link>https://quartz.jzhao.xyz/Defence/Mount-Defence</link>
-    <guid>https://quartz.jzhao.xyz/Defence/Mount-Defence</guid>
-    <description> Always start with getting on side.</description>
-    <pubDate>Thu, 10 Jul 2025 11:03:19 GMT</pubDate>
-  </item><item>
-    <title>Always start with side</title>
-    <link>https://quartz.jzhao.xyz/Doctrine/Always-start-with-side</link>
-    <guid>https://quartz.jzhao.xyz/Doctrine/Always-start-with-side</guid>
-    <description>Ideally when on the bottom on your back every movement should start with movement to a slight side tilt.</description>
-    <pubDate>Thu, 10 Jul 2025 11:03:19 GMT</pubDate>
-  </item><item>
-    <title>Center line</title>
-    <link>https://quartz.jzhao.xyz/Doctrine/Center-line</link>
-    <guid>https://quartz.jzhao.xyz/Doctrine/Center-line</guid>
-    <description>Imagine that you have a direct line outward from the center of your torso. That is zone where you can influence your opponent the most.</description>
     <pubDate>Thu, 10 Jul 2025 11:03:19 GMT</pubDate>
   </item>
     </channel>
