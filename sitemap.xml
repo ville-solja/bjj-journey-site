@@ -1,7 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/2025-07-09</loc>
-    <lastmod>2025-07-09T17:46:02.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Defence/Back-defence</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
   </url><url>
@@ -57,7 +54,7 @@
     <lastmod>2025-07-02T15:18:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Empty_Pages</loc>
-    <lastmod>2025-07-10T18:27:06.833Z</lastmod>
+    <lastmod>2025-07-11T04:00:53.298Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Grip-breaks/Collar-grip-break-downward</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -153,7 +150,7 @@
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Back</loc>
-    <lastmod>2025-06-30T09:31:57.000Z</lastmod>
+    <lastmod>2025-07-10T18:47:21.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Closed-guard/Closed-guard</loc>
     <lastmod>2025-07-10T09:55:53.000Z</lastmod>
@@ -191,17 +188,17 @@
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/Lasso-guard</loc>
     <lastmod>2025-07-10T09:55:53.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Positions/Open-guard/Open-guard</loc>
+    <lastmod>2025-07-10T18:47:21.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/Rubber-guard</loc>
     <lastmod>2025-07-10T18:23:16.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Positions/Open-guard/Spider-guard-1</loc>
-    <lastmod>2025-07-10T18:23:16.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/Spider-guard</loc>
-    <lastmod>2025-07-09T17:46:02.000Z</lastmod>
+    <lastmod>2025-07-10T18:36:52.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Positions/Open-guard/X-guard-and-variations</loc>
-    <lastmod>2025-07-09T17:46:02.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Positions/Open-guard/X-guards</loc>
+    <lastmod>2025-07-10T19:14:23.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/S-Mount</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -237,10 +234,10 @@
     <lastmod>2025-07-10T11:03:19.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/README</loc>
-    <lastmod>2025-07-02T16:02:11.000Z</lastmod>
+    <lastmod>2025-07-10T19:19:16.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Recently_Updated</loc>
-    <lastmod>2025-07-10T18:27:06.829Z</lastmod>
+    <lastmod>2025-07-11T04:00:53.289Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Armbar</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -278,6 +275,9 @@
     <loc>https://quartz.jzhao.xyz/Submissions/Rear-naked-choke</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Submissions/Straight-ankle-lock</loc>
+    <lastmod>2025-07-10T18:41:56.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Straight-jacket-from-back</loc>
     <lastmod>2025-07-10T17:51:04.000Z</lastmod>
   </url><url>
@@ -296,8 +296,8 @@
     <loc>https://quartz.jzhao.xyz/Submissions/Windshield-wiper-choke</loc>
     <lastmod>2025-07-10T17:51:04.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/Basic-sweep</loc>
-    <lastmod>2025-07-10T11:03:19.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/Ankle-Waist-Shin</loc>
+    <lastmod>2025-07-10T19:07:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/De-La-Riva-sweep</loc>
     <lastmod>2025-07-10T18:23:16.000Z</lastmod>
@@ -317,6 +317,9 @@
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/Star-sweep</loc>
     <lastmod>2025-07-10T11:03:19.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/Sweep</loc>
+    <lastmod>2025-07-10T19:07:57.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Lockdown-Sweep</loc>
     <lastmod>2025-07-10T17:51:04.000Z</lastmod>
   </url><url>
@@ -335,12 +338,9 @@
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Single-leg</loc>
     <lastmod>2025-07-10T11:03:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Uncreated-pages</loc>
-    <lastmod>2025-07-10T17:51:04.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Unlinked_Pages</loc>
-    <lastmod>2025-07-10T18:27:06.837Z</lastmod>
+    <lastmod>2025-07-11T04:00:53.302Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2025-07-10T18:26:22.000Z</lastmod>
+    <lastmod>2025-07-10T19:38:51.000Z</lastmod>
   </url></urlset>
