@@ -30,9 +30,9 @@ if __name__ == "__main__":
     content = f"# Vault Stats\n\nThis vault currently contains **{count:,} words** across all notes.\n"
 
     # Save as raw number for sidebar
-    with open("vault_wordcount.txt", "w") as f:
-        f.write(str(count))
-
+    #with open("vault_wordcount.txt", "w") as f:
+    #    f.write(str(count))
+    
     # Save as Markdown page
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(content)
