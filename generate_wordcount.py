@@ -25,9 +25,16 @@ def total_word_count(vault_path):
         total += count_words(file)
     return total
 
-
 if __name__ == "__main__":
     count = total_word_count(VAULT_PATH)
     content = f"# 📊 Vault Stats\n\nThis vault currently contains **{count:,} words** across all notes.\n"
+
+    # Save as raw number for sidebar
     with open("vault_wordcount.txt", "w") as f:
         f.write(str(count))
+
+    # Save as Markdown page
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"Word count written to: {OUTPUT_FILE} and vault_wordcount.txt")
