@@ -54,7 +54,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    { Component: VaultStats },
+    // { Component: VaultStats },
   ],
 }
 
@@ -79,6 +79,6 @@ export const defaultListPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    { Component: VaultStats },
+    // { Component: VaultStats },
   ],
 }
