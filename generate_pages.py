@@ -68,7 +68,7 @@ def write_markdown(file_path, title, entries):
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
-    print(f"✅ Saved: {file_path}")
+    print(f"Saved: {file_path}")
 
 # Run all generators
 if __name__ == "__main__":
