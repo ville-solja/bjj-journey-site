@@ -53,13 +53,13 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    wordCount
-      ? Component.Raw(
-          `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;">
-            <strong>📊 Vault Word Count:</strong><br>${wordCount} words
-          </div>`
-        )
-      : Component.Spacer(),
+    {
+      Component: () => ({
+        html: `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;">
+                 <strong>📊 Vault Word Count:</strong><br>${wordCount ?? "Unavailable"} words
+               </div>`,
+      }),
+    },
   ]
 }
 
