@@ -53,13 +53,14 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    {
-      // Directly insert raw HTML into sidebar
-      html: wordCount
-        ? `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;"><strong>📊 Vault Word Count</strong><br>${wordCount} words</div>`
-        : "",
-    },
-  ],
+    wordCount
+      ? Component.Raw(
+          `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;">
+            <strong>📊 Vault Word Count:</strong><br>${wordCount} words
+          </div>`
+        )
+      : Component.Spacer(),
+  ]
 }
 
 // Layout for list pages (e.g., tags, folders)
