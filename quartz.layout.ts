@@ -1,7 +1,20 @@
+import fs from "fs"
+import path from "path"
+
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
+// ───────────────────────────────────────────────────────────
+// Load vault word count from vault_wordcount.txt at build time
+let wordCount: string | null = null
+try {
+  const raw = fs.readFileSync(path.resolve("vault_wordcount.txt"), "utf-8")
+  wordCount = parseInt(raw).toLocaleString() // format with commas
+} catch (err) {
+  wordCount = null
+}
+
+// Shared components across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -14,7 +27,7 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// Layout for individual content pages (e.g., notes)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -30,10 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
@@ -43,11 +53,19 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    // Component.RecentNotes({ limit: 10 }),
+    // Optional: Component.RecentNotes({ limit: 10 }),
+    {
+      Component: () =>
+        wordCount
+          ? {
+              html: `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;"><strong>Vault Word Count</strong><br>${wordCount} words</div>`,
+            }
+          : { html: "" },
+    },
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// Layout for list pages (e.g., tags, folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -55,14 +73,20 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
       ],
     }),
     Component.Explorer(),
   ],
-  right: [],
+  right: [
+    {
+      Component: () =>
+        wordCount
+          ? {
+              html: `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;"><strong>Vault Word Count</strong><br>${wordCount} words</div>`,
+            }
+          : { html: "" },
+    },
+  ],
 }
