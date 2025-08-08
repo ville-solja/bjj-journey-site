@@ -20,7 +20,7 @@ def total_word_count(vault_path):
     for file in pathlib.Path(vault_path).rglob("*.md"):
         if ".obsidian" in str(file):
             continue
-        if file.name.startswith("_vault_stats"):
+        if file.name.startswith("word_count"):
             continue
         total += count_words(file)
     return total
