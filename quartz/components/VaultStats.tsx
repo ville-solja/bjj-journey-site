@@ -1,5 +1,7 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
+console.log("✅ VaultStats component loaded")
+
 export const VaultStats: QuartzComponentConstructor = () => {
   return (props: QuartzComponentProps) => {
     return (
