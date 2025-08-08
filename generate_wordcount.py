@@ -25,9 +25,9 @@ def total_word_count(vault_path):
         total += count_words(file)
     return total
 
+
 if __name__ == "__main__":
     count = total_word_count(VAULT_PATH)
     content = f"# 📊 Vault Stats\n\nThis vault currently contains **{count:,} words** across all notes.\n"
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"Word count saved to {OUTPUT_FILE}")
+    with open("vault_wordcount.txt", "w") as f:
+        f.write(str(count))
