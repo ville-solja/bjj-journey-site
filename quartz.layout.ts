@@ -54,14 +54,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     // Optional: Component.RecentNotes({ limit: 10 }),
-    {
-      Component: () =>
-        wordCount
-          ? {
-              html: `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;"><strong>Vault Word Count</strong><br>${wordCount} words</div>`,
-            }
-          : { html: "" },
-    },
+    wordCount
+      ? Component.Static(`<div style="margin-top: 2rem; font-size: 0.9rem;"><strong>Vault Word Count:</strong><br>${wordCount} words</div>`)
+      : Component.Spacer()
   ],
 }
 
