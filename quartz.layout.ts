@@ -5,7 +5,6 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import VaultStats from "./quartz/components/VaultStats"
 
-
 // ───────────────────────────────────────────────────────────
 // Load vault word count from vault_wordcount.txt at build time
 let wordCount: string | null = null
@@ -55,13 +54,17 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-      { Component: VaultStats },
+    { Component: VaultStats },
   ],
 }
 
 // Layout for list pages (e.g., tags, folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -76,6 +79,6 @@ export const defaultListPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-      { Component: VaultStats },
+    { Component: VaultStats },
   ],
 }
