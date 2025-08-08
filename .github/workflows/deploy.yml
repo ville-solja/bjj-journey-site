@@ -71,7 +71,7 @@ jobs:
         run: python3 generate_pages.py
       
       - name: Generate vault statistics
-        run: python3 _scripts/generate_wordcount.py
+        run: python3 generate_wordcount.py
         
       - name: Build Quartz site
         run: npm run build
