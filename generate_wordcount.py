@@ -27,7 +27,7 @@ def total_word_count(vault_path):
 
 if __name__ == "__main__":
     count = total_word_count(VAULT_PATH)
-    content = f"# 📊 Vault Stats\n\nThis vault currently contains **{count:,} words** across all notes.\n"
+    content = f"# Vault Stats\n\nThis vault currently contains **{count:,} words** across all notes.\n"
 
     # Save as raw number for sidebar
     with open("vault_wordcount.txt", "w") as f:
