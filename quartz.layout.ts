@@ -3,6 +3,8 @@ import path from "path"
 
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import VaultStats from "./quartz/components/VaultStats"
+
 
 // ───────────────────────────────────────────────────────────
 // Load vault word count from vault_wordcount.txt at build time
@@ -70,15 +72,5 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-  ],
-  right: [
-    {
-      Component: () =>
-        wordCount
-          ? {
-              html: `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;"><strong>Vault Word Count</strong><br>${wordCount} words</div>`,
-            }
-          : { html: "" },
-    },
   ],
 }
