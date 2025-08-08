@@ -53,14 +53,8 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    {
-      Component: () => ({
-        html: `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;">
-                 <strong>📊 Vault Word Count:</strong><br>${wordCount ?? "Unavailable"} words
-               </div>`,
-      }),
-    },
-  ]
+      { Component: VaultStats },
+  ],
 }
 
 // Layout for list pages (e.g., tags, folders)
