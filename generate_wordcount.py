@@ -37,4 +37,4 @@ if __name__ == "__main__":
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"Word count written to: {OUTPUT_FILE} and vault_wordcount.txt")
+    print(f"Word count written to: {OUTPUT_FILE}")
