@@ -2,7 +2,7 @@ import os
 import pathlib
 
 VAULT_PATH = "content"
-OUTPUT_FILE = os.path.join(VAULT_PATH, "_vault_stats.md")
+OUTPUT_FILE = os.path.join(VAULT_PATH, "word_count.md")
 
 def count_words(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
