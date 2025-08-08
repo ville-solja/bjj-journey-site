@@ -1,11 +1,13 @@
-import { QuartzComponentConstructor } from "./types"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const VaultStats: QuartzComponentConstructor = () => {
-  return () => (
-    <div style={{ marginTop: "2rem", fontSize: "0.9rem", lineHeight: "1.4" }}>
-      ✅ VaultStats component is working!
-    </div>
-  )
+export const VaultStats: QuartzComponentConstructor = () => {
+  return (props: QuartzComponentProps) => {
+    return (
+      <div class="vault-stats" style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;">
+        ✅ VaultStats component is working!
+      </div>
+    )
+  }
 }
 
 export default VaultStats
