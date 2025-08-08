@@ -53,10 +53,12 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    // Optional: Component.RecentNotes({ limit: 10 }),
-    wordCount
-      ? Component.Static(`<div style="margin-top: 2rem; font-size: 0.9rem;"><strong>Vault Word Count:</strong><br>${wordCount} words</div>`)
-      : Component.Spacer()
+    {
+      // Directly insert raw HTML into sidebar
+      html: wordCount
+        ? `<div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;"><strong>📊 Vault Word Count</strong><br>${wordCount} words</div>`
+        : "",
+    },
   ],
 }
 
