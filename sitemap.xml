@@ -1,4 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://quartz.jzhao.xyz/Babybolo</loc>
+    <lastmod>2025-08-26T17:55:46.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Broad/Base</loc>
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
   </url><url>
@@ -25,6 +28,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Specific/Never-flat-on-back</loc>
     <lastmod>2025-08-08T06:15:22.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Crab-rider</loc>
+    <lastmod>2025-08-26T17:55:46.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Defence/Back-defence</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -63,7 +69,7 @@
     <lastmod>2025-07-02T15:18:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Empty_Pages</loc>
-    <lastmod>2025-08-26T03:43:23.036Z</lastmod>
+    <lastmod>2025-08-27T03:37:16.319Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Formatting</loc>
     <lastmod>2025-08-13T13:30:49.000Z</lastmod>
@@ -152,8 +158,8 @@
     <loc>https://quartz.jzhao.xyz/Passing/Double-under</loc>
     <lastmod>2025-07-10T11:03:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Passing/Knee-slice</loc>
-    <lastmod>2025-07-10T11:03:19.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Passing/Knee-slide</loc>
+    <lastmod>2025-08-26T17:51:13.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Passing/Leg-drag</loc>
     <lastmod>2025-08-08T06:15:22.000Z</lastmod>
@@ -182,6 +188,9 @@
     <loc>https://quartz.jzhao.xyz/Positions/Half-guard/Lockdown</loc>
     <lastmod>2025-07-10T09:55:53.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Positions/Headquarters</loc>
+    <lastmod>2025-08-26T17:55:19.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/High-mount</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
   </url><url>
@@ -195,7 +204,7 @@
     <lastmod>2025-07-10T18:23:16.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/De-La-Riva-and-Reverse-De-La-Riva</loc>
-    <lastmod>2025-07-10T10:56:13.000Z</lastmod>
+    <lastmod>2025-08-26T17:51:13.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/K-guard</loc>
     <lastmod>2025-07-10T09:55:53.000Z</lastmod>
@@ -249,7 +258,7 @@
     <lastmod>2025-08-08T06:23:20.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Recently_Updated</loc>
-    <lastmod>2025-08-26T03:43:23.022Z</lastmod>
+    <lastmod>2025-08-27T03:37:16.309Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Armbar</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -354,11 +363,11 @@
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Unlinked_Pages</loc>
-    <lastmod>2025-08-26T03:43:23.044Z</lastmod>
+    <lastmod>2025-08-27T03:37:16.325Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2025-08-13T15:40:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/word_count</loc>
-    <lastmod>2025-08-26T03:43:23.093Z</lastmod>
+    <lastmod>2025-08-27T03:37:16.369Z</lastmod>
   </url></urlset>
