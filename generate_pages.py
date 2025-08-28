@@ -39,8 +39,9 @@ def format_entry(file_path):
 # 1. Recently Updated
 def get_recently_updated(vault_path, limit):
     files = get_markdown_files(vault_path)
-    sorted_files = sorted(files, key=os.path.getmtime, reverse=True)
-    top_files = sorted_files[:limit]
+    files_with_times = [(f, get_git_modified_time(f)) for f in files]
+    sorted_files = sorted(files_with_times, key=lambda x: x[1], reverse=True)
+    top_files = [f[0] for f in sorted_files[:limit]]
     return top_files
 
 # 2. Empty Pages
