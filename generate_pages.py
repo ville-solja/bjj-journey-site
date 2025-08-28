@@ -29,9 +29,9 @@ def get_git_modified_time(file_path):
             ["git", "log", "-1", "--format=%ct", str(file_path)],
             stderr=subprocess.DEVNULL,
         ).decode().strip()
-        return int(timestamp)
+        return int(timestamp) if timestamp else 0  # fallback to 0 if empty
     except subprocess.CalledProcessError:
-        return 0
+        return int(os.path.getmtime(file_path))
 
 def format_entry(file_path):
     return f"- [[{file_path.stem}]]"
