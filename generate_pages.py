@@ -2,6 +2,7 @@ import os
 import pathlib
 import re
 from datetime import datetime
+import subprocess
 
 VAULT_PATH = "content"
 LIMIT = 10
@@ -21,6 +22,16 @@ def get_markdown_files(vault_path):
         and f.name not in OUTPUT_FILES.values()
         and f.name.lower() not in [v.lower() for v in OUTPUT_FILES.values()]
     ]
+
+def get_git_modified_time(file_path):
+    try:
+        timestamp = subprocess.check_output(
+            ["git", "log", "-1", "--format=%ct", str(file_path)],
+            stderr=subprocess.DEVNULL,
+        ).decode().strip()
+        return int(timestamp)
+    except subprocess.CalledProcessError:
+        return 0
 
 def format_entry(file_path):
     return f"- [[{file_path.stem}]]"
