@@ -1,7 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/Babybolo</loc>
-    <lastmod>2025-08-26T17:55:46.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Broad/Base</loc>
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
   </url><url>
@@ -28,9 +25,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Specific/Never-flat-on-back</loc>
     <lastmod>2025-08-08T06:15:22.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Crab-rider</loc>
-    <lastmod>2025-08-26T17:55:46.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Defence/Back-defence</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -69,7 +63,7 @@
     <lastmod>2025-07-02T15:18:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Empty_Pages</loc>
-    <lastmod>2025-08-27T03:37:16.319Z</lastmod>
+    <lastmod>2025-08-28T03:37:29.489Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Formatting</loc>
     <lastmod>2025-08-13T13:30:49.000Z</lastmod>
@@ -86,32 +80,35 @@
     <loc>https://quartz.jzhao.xyz/Grip-breaks/Grip-breaks</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Figure-four-grip</loc>
-    <lastmod>2025-07-10T18:23:16.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Figure-four-grip</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Gable-grip</loc>
-    <lastmod>2025-06-30T09:31:57.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Gable-grip</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Gift-wrap</loc>
-    <lastmod>2025-06-30T09:31:57.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Gift-wrap</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Lego-grip,-C-cup-grip</loc>
-    <lastmod>2025-06-30T09:31:57.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Lego-grip,-C-cup-grip</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Overhook</loc>
-    <lastmod>2025-07-10T11:03:19.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Overhook</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/S-grip</loc>
-    <lastmod>2025-06-30T09:31:57.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Rekkamies</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Seatbelt-grip</loc>
-    <lastmod>2025-06-30T09:31:57.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/S-grip</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Sleeve-and-collar-grip</loc>
-    <lastmod>2025-07-10T09:55:53.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Seatbelt-grip</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Grips/Thumb-and-cuff-grip</loc>
-    <lastmod>2025-07-02T15:33:46.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Sleeve-and-collar-grip</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Thumb-and-cuff-grip</loc>
+    <lastmod>2025-08-27T19:17:19.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Miscellaneous/Anatomy/Frame</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -182,6 +179,9 @@
     <loc>https://quartz.jzhao.xyz/Positions/Combat-base</loc>
     <lastmod>2025-08-13T13:19:19.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Positions/Crab-ride</loc>
+    <lastmod>2025-08-27T19:35:30.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Half-guard/Half-guard</loc>
     <lastmod>2025-07-10T09:55:53.000Z</lastmod>
   </url><url>
@@ -204,7 +204,7 @@
     <lastmod>2025-07-10T18:23:16.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/De-La-Riva-and-Reverse-De-La-Riva</loc>
-    <lastmod>2025-08-26T17:51:13.000Z</lastmod>
+    <lastmod>2025-08-27T19:39:28.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/K-guard</loc>
     <lastmod>2025-07-10T09:55:53.000Z</lastmod>
@@ -229,6 +229,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Side-control</loc>
     <lastmod>2025-08-08T06:15:22.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Positions/Sit-up-guard</loc>
+    <lastmod>2025-08-27T19:39:28.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Standing</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -258,7 +261,7 @@
     <lastmod>2025-08-08T06:23:20.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Recently_Updated</loc>
-    <lastmod>2025-08-27T03:37:16.309Z</lastmod>
+    <lastmod>2025-08-28T03:37:29.479Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Armbar</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -280,6 +283,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Crusifix</loc>
     <lastmod>2025-08-08T06:15:22.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Submissions/Estima-lock</loc>
+    <lastmod>2025-08-27T19:35:30.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Gogoplata</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -320,8 +326,8 @@
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/Ankle-Waist-Shin</loc>
     <lastmod>2025-07-10T19:07:57.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/De-La-Riva-sweep</loc>
-    <lastmod>2025-08-05T11:03:01.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/Berimbolo</loc>
+    <lastmod>2025-08-27T19:39:28.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Bottom/John-Wayne-sweep</loc>
     <lastmod>2025-07-10T11:03:19.000Z</lastmod>
@@ -363,11 +369,11 @@
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Unlinked_Pages</loc>
-    <lastmod>2025-08-27T03:37:16.325Z</lastmod>
+    <lastmod>2025-08-28T03:37:29.493Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2025-08-13T15:40:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/word_count</loc>
-    <lastmod>2025-08-27T03:37:16.369Z</lastmod>
+    <lastmod>2025-08-28T03:37:29.536Z</lastmod>
   </url></urlset>
