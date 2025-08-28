@@ -34,7 +34,7 @@ jobs:
           check-latest: true
           cache: 'npm'
 
-      - name: Clean npm cache (optional but safe)
+      - name: Clean npm cache
         run: npm cache clean --force
 
       - name: Install dependencies
