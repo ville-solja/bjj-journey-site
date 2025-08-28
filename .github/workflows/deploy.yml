@@ -5,6 +5,9 @@ on:
     - cron: '0 3 * * *'  # Nightly at 03:00 UTC
   workflow_dispatch:
   push:
+    branches:
+      - main
+  pull_request:
 
 permissions:
   contents: write
@@ -12,7 +15,7 @@ permissions:
   id-token: write
 
 jobs:
-  sync-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -35,32 +38,8 @@ jobs:
       - name: Clean npm cache (optional but safe)
         run: npm cache clean --force
 
-      - name: Debug – Check presence of package.json
-        run: |
-          echo "Working directory: $(pwd)"
-          ls -la
-          cat package.json || echo "package.json not found!"
-
-      - name: Verify Node and npm versions
-        run: |
-          node -v
-          npm -v
-          which node
-          which npm
-
       - name: Install dependencies
         run: npm install
-
-      - name: Debug – List available scripts
-        run: npm run || echo "Failed to list npm scripts"
-
-      - name: Confirm package.json and build script
-        run: |
-          echo "Working directory: $(pwd)"
-          echo "package.json contents:"
-          cat package.json
-          echo "Available npm scripts:"
-          npm run
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -69,12 +48,21 @@ jobs:
 
       - name: Generate Recently Updated Notes
         run: python3 generate_pages.py
-      
+
       - name: Generate vault statistics
         run: python3 generate_wordcount.py
-        
+
       - name: Build Quartz site
         run: npm run build
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN != ''
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Quartz repo
+        uses: actions/checkout@v4
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
