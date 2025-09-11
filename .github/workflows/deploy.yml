@@ -5,22 +5,18 @@ on:
     - cron: '0 3 * * *'  # Nightly at 03:00 UTC
   workflow_dispatch:
   push:
-    branches:
-      - main
-      - v4
-
 permissions:
   contents: write
   pages: write
   id-token: write
 
 jobs:
-  build:
+  sync-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Quartz repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Clone vault repo and sync to content/
         run: |
@@ -29,43 +25,58 @@ jobs:
           rsync -av --exclude=package.json --exclude=package-lock.json temp-vault/ content/
 
       - name: Set up Node.js 22
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           check-latest: true
           cache: 'npm'
 
-      - name: Clean npm cache
+      - name: Clean npm cache (optional but safe)
         run: npm cache clean --force
+
+      - name: Debug – Check presence of package.json
+        run: |
+          echo "Working directory: $(pwd)"
+          ls -la
+          cat package.json || echo "package.json not found!"
+
+      - name: Verify Node and npm versions
+        run: |
+          node -v
+          npm -v
+          which node
+          which npm
 
       - name: Install dependencies
         run: npm install
 
+      - name: Debug – List available scripts
+        run: npm run || echo "Failed to list npm scripts"
+
+      - name: Confirm package.json and build script
+        run: |
+          echo "Working directory: $(pwd)"
+          echo "package.json contents:"
+          cat package.json
+          echo "Available npm scripts:"
+          npm run
+
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Generate Recently Updated Notes
         run: python3 generate_pages.py
-
+      
       - name: Generate vault statistics
         run: python3 generate_wordcount.py
-
+        
       - name: Build Quartz site
         run: npm run build
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Quartz repo
-        uses: actions/checkout@v5
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages
