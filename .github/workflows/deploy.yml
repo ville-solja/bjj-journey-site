@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout Quartz repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Clone vault repo and sync to content/
         run: |
@@ -25,7 +25,7 @@ jobs:
           rsync -av --exclude=package.json --exclude=package-lock.json temp-vault/ content/
 
       - name: Set up Node.js 22
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22'
           check-latest: true
@@ -62,7 +62,7 @@ jobs:
           npm run
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
 
