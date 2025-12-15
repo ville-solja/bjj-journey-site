@@ -1,6 +1,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://quartz.jzhao.xyz/Back,-standing</loc>
+    <lastmod>2025-12-15T15:30:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Broad/Base</loc>
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Broad/Feinting</loc>
+    <lastmod>2025-12-15T15:22:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Broad/Flat-on-back</loc>
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
@@ -13,6 +19,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Broad/Pressure</loc>
     <lastmod>2025-08-08T06:23:20.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Broad/Stacking</loc>
+    <lastmod>2025-12-15T15:22:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Specific/Arm-crossing</loc>
     <lastmod>2025-09-03T06:32:20.000Z</lastmod>
@@ -93,7 +102,7 @@
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Arm-drag</loc>
-    <lastmod>2025-11-18T15:52:46.000Z</lastmod>
+    <lastmod>2025-12-15T15:30:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Cross-collar--grip</loc>
     <lastmod>2025-11-21T06:26:22.000Z</lastmod>
@@ -255,7 +264,7 @@
     <lastmod>2025-11-18T15:58:55.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Open-guard/Z-guard</loc>
-    <lastmod>2025-12-08T14:38:27.000Z</lastmod>
+    <lastmod>2025-12-15T15:18:20.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/S-Mount</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
@@ -273,7 +282,7 @@
     <lastmod>2025-11-03T07:12:46.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Recently_Updated</loc>
-    <lastmod>2025-12-15T04:00:23.434Z</lastmod>
+    <lastmod>2025-12-15T15:33:40.967Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Armbar</loc>
     <lastmod>2025-11-18T17:17:31.000Z</lastmod>
@@ -387,7 +396,7 @@
     <lastmod>2025-11-26T07:47:10.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Sacrifice-elbow-drop</loc>
-    <lastmod>2025-11-20T19:26:07.000Z</lastmod>
+    <lastmod>2025-12-15T15:22:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Shin-Trip</loc>
     <lastmod>2025-11-20T19:17:56.000Z</lastmod>
@@ -405,11 +414,11 @@
     <lastmod>2025-11-20T19:13:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Unlinked_Pages</loc>
-    <lastmod>2025-12-15T04:00:23.448Z</lastmod>
+    <lastmod>2025-12-15T15:33:40.981Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2025-12-08T14:38:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/word_count</loc>
-    <lastmod>2025-12-15T04:00:23.492Z</lastmod>
+    <lastmod>2025-12-15T15:33:41.024Z</lastmod>
   </url></urlset>
