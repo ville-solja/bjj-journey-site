@@ -1,7 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/Back,-standing</loc>
-    <lastmod>2025-12-15T15:34:29.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Broad/Base</loc>
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
   </url><url>
@@ -137,9 +134,6 @@
     <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Thumb-and-cuff-grip</loc>
     <lastmod>2025-12-24T09:31:29.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/K-guard-sweep</loc>
-    <lastmod>2025-12-24T09:31:29.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Miscellaneous/Anatomy/Frame</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
   </url><url>
@@ -199,6 +193,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Passing/Toreando</loc>
     <lastmod>2025-06-30T09:31:57.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Positions/Back,-standing</loc>
+    <lastmod>2025-12-26T12:03:22.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Positions/Back</loc>
     <lastmod>2025-07-10T18:47:21.000Z</lastmod>
@@ -285,7 +282,7 @@
     <lastmod>2025-11-03T07:12:46.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Recently_Updated</loc>
-    <lastmod>2025-12-26T03:53:00.067Z</lastmod>
+    <lastmod>2025-12-26T12:04:48.444Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Submissions/Armbar</loc>
     <lastmod>2025-11-18T17:17:31.000Z</lastmod>
@@ -365,6 +362,9 @@
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Ground/John-Wayne-sweep</loc>
     <lastmod>2025-11-28T08:42:16.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Ground/K-guard-sweep</loc>
+    <lastmod>2025-12-26T12:03:22.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Ground/Lasso-sweep</loc>
     <lastmod>2025-11-28T08:42:16.000Z</lastmod>
   </url><url>
@@ -417,11 +417,11 @@
     <lastmod>2025-11-20T19:13:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Unlinked_Pages</loc>
-    <lastmod>2025-12-26T03:53:00.098Z</lastmod>
+    <lastmod>2025-12-26T12:04:48.461Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2025-12-08T14:38:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/word_count</loc>
-    <lastmod>2025-12-26T03:53:00.135Z</lastmod>
+    <lastmod>2025-12-26T12:04:48.506Z</lastmod>
   </url></urlset>
