@@ -83,7 +83,7 @@ def write_markdown(file_path, title, entries):
     print(f"Saved: {file_path}")
 
 # Run all generators
-if __name__ == "__main__":
+#if __name__ == "__main__":
     #write_markdown(OUTPUT_FILES["recent"], "Recently Updated Notes", get_recently_updated(VAULT_PATH, LIMIT))
     #write_markdown(OUTPUT_FILES["empty"], "Empty Notes", get_empty_files(VAULT_PATH))
     #write_markdown(OUTPUT_FILES["orphan"], "Unlinked Notes", get_unlinked_pages(VAULT_PATH))
