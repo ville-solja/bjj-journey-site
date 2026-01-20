@@ -20,8 +20,11 @@
     <loc>https://quartz.jzhao.xyz/Concepts/Broad/Stacking</loc>
     <lastmod>2025-12-15T15:22:34.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Concepts/Broad/Tug</loc>
-    <lastmod>2026-01-09T06:26:26.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Concepts/Broad/Technique-circle</loc>
+    <lastmod>2026-01-19T07:28:45.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Broad/Tugging-motion</loc>
+    <lastmod>2026-01-19T07:18:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Specific/Arm-crossing</loc>
     <lastmod>2025-09-03T06:32:20.000Z</lastmod>
@@ -91,6 +94,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Arm-drag</loc>
     <lastmod>2025-12-15T15:30:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Belt-and-Sleeve</loc>
+    <lastmod>2026-01-19T07:10:29.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Grips--and--Controls/Cross-collar--grip</loc>
     <lastmod>2025-11-21T06:26:22.000Z</lastmod>
@@ -392,6 +398,9 @@
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Lockdown-Sweep</loc>
     <lastmod>2025-11-18T17:35:30.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Sacrifice-throw</loc>
+    <lastmod>2026-01-19T07:21:06.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Ankle-pick</loc>
     <lastmod>2025-12-31T09:49:36.000Z</lastmod>
   </url><url>
@@ -408,7 +417,7 @@
     <lastmod>2025-11-26T07:47:10.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Sacrifice-elbow-drop</loc>
-    <lastmod>2026-01-04T06:30:15.000Z</lastmod>
+    <lastmod>2026-01-19T07:18:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Shin-Trip</loc>
     <lastmod>2025-11-20T19:17:56.000Z</lastmod>
@@ -423,7 +432,7 @@
     <lastmod>2025-08-08T06:22:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Sumi-Gaeshi</loc>
-    <lastmod>2026-01-09T07:26:18.000Z</lastmod>
+    <lastmod>2026-01-19T07:10:29.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sweeps,-throws--and--takedowns/Standing/Sun-sweep</loc>
     <lastmod>2025-11-18T17:33:22.000Z</lastmod>
@@ -435,5 +444,5 @@
     <lastmod>2025-12-31T06:34:35.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/word_count</loc>
-    <lastmod>2026-01-19T04:07:14.641Z</lastmod>
+    <lastmod>2026-01-20T04:02:33.106Z</lastmod>
   </url></urlset>
