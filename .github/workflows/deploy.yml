@@ -65,12 +65,6 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.x'
-
-      - name: Generate Recently Updated Notes
-        run: python3 generate_pages.py
-      
-      - name: Generate vault statistics
-        run: python3 generate_wordcount.py
         
       - name: Build Quartz site
         run: npm run build
